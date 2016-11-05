@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		718351881DCCD79B00E3085C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 718351871DCCD79B00E3085C /* main.m */; };
+		7183518B1DCCD79B00E3085C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7183518A1DCCD79B00E3085C /* AppDelegate.m */; };
+		7183518E1DCCD79B00E3085C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7183518D1DCCD79B00E3085C /* ViewController.m */; };
+		718351911DCCD79B00E3085C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7183518F1DCCD79B00E3085C /* Main.storyboard */; };
+		718351931DCCD79B00E3085C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 718351921DCCD79B00E3085C /* Assets.xcassets */; };
+		718351961DCCD79B00E3085C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 718351941DCCD79B00E3085C /* LaunchScreen.storyboard */; };
+		7183519E1DCCD8D800E3085C /* bolo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7183519D1DCCD8D800E3085C /* bolo.mp3 */; };
+		718351A01DCCDA4C00E3085C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7183519F1DCCDA4C00E3085C /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		718351831DCCD79B00E3085C /* RPMusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RPMusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		718351871DCCD79B00E3085C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		718351891DCCD79B00E3085C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7183518A1DCCD79B00E3085C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7183518C1DCCD79B00E3085C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7183518D1DCCD79B00E3085C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		718351901DCCD79B00E3085C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		718351921DCCD79B00E3085C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		718351951DCCD79B00E3085C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		718351971DCCD79B00E3085C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7183519D1DCCD8D800E3085C /* bolo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bolo.mp3; sourceTree = "<group>"; };
+		7183519F1DCCDA4C00E3085C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		718351801DCCD79B00E3085C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				718351A01DCCDA4C00E3085C /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7183517A1DCCD79B00E3085C = {
+			isa = PBXGroup;
+			children = (
+				7183519F1DCCDA4C00E3085C /* AVFoundation.framework */,
+				718351851DCCD79B00E3085C /* RPMusicPlayer */,
+				718351841DCCD79B00E3085C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		718351841DCCD79B00E3085C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				718351831DCCD79B00E3085C /* RPMusicPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		718351851DCCD79B00E3085C /* RPMusicPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				718351891DCCD79B00E3085C /* AppDelegate.h */,
+				7183518A1DCCD79B00E3085C /* AppDelegate.m */,
+				7183519D1DCCD8D800E3085C /* bolo.mp3 */,
+				7183518C1DCCD79B00E3085C /* ViewController.h */,
+				7183518D1DCCD79B00E3085C /* ViewController.m */,
+				7183518F1DCCD79B00E3085C /* Main.storyboard */,
+				718351921DCCD79B00E3085C /* Assets.xcassets */,
+				718351941DCCD79B00E3085C /* LaunchScreen.storyboard */,
+				718351971DCCD79B00E3085C /* Info.plist */,
+				718351861DCCD79B00E3085C /* Supporting Files */,
+			);
+			path = RPMusicPlayer;
+			sourceTree = "<group>";
+		};
+		718351861DCCD79B00E3085C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				718351871DCCD79B00E3085C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		718351821DCCD79B00E3085C /* RPMusicPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7183519A1DCCD79B00E3085C /* Build configuration list for PBXNativeTarget "RPMusicPlayer" */;
+			buildPhases = (
+				7183517F1DCCD79B00E3085C /* Sources */,
+				718351801DCCD79B00E3085C /* Frameworks */,
+				718351811DCCD79B00E3085C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RPMusicPlayer;
+			productName = RPMusicPlayer;
+			productReference = 718351831DCCD79B00E3085C /* RPMusicPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7183517B1DCCD79B00E3085C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = riteshpatil;
+				TargetAttributes = {
+					718351821DCCD79B00E3085C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 7183517E1DCCD79B00E3085C /* Build configuration list for PBXProject "RPMusicPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7183517A1DCCD79B00E3085C;
+			productRefGroup = 718351841DCCD79B00E3085C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				718351821DCCD79B00E3085C /* RPMusicPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		718351811DCCD79B00E3085C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7183519E1DCCD8D800E3085C /* bolo.mp3 in Resources */,
+				718351961DCCD79B00E3085C /* LaunchScreen.storyboard in Resources */,
+				718351931DCCD79B00E3085C /* Assets.xcassets in Resources */,
+				718351911DCCD79B00E3085C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7183517F1DCCD79B00E3085C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7183518E1DCCD79B00E3085C /* ViewController.m in Sources */,
+				7183518B1DCCD79B00E3085C /* AppDelegate.m in Sources */,
+				718351881DCCD79B00E3085C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7183518F1DCCD79B00E3085C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				718351901DCCD79B00E3085C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		718351941DCCD79B00E3085C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				718351951DCCD79B00E3085C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		718351981DCCD79B00E3085C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		718351991DCCD79B00E3085C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7183519B1DCCD79B00E3085C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RPMusicPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RP.RPMusicPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7183519C1DCCD79B00E3085C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RPMusicPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RP.RPMusicPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7183517E1DCCD79B00E3085C /* Build configuration list for PBXProject "RPMusicPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				718351981DCCD79B00E3085C /* Debug */,
+				718351991DCCD79B00E3085C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7183519A1DCCD79B00E3085C /* Build configuration list for PBXNativeTarget "RPMusicPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7183519B1DCCD79B00E3085C /* Debug */,
+				7183519C1DCCD79B00E3085C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7183517B1DCCD79B00E3085C /* Project object */;
+}
